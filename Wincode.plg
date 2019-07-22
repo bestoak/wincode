@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Wincode - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/Wincode.res" /d "NDEBUG" "D:\C\Wincode\Wincode.rc"" 
+Creating temporary file "C:\DOCUME~1\SHEPHE~1\LOCALS~1\Temp\RSP133.tmp" with contents
+[
+/nologo /MT /W3 /GX /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/Wincode.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\C\Wincode\HelpDlg.cpp"
+"D:\C\Wincode\Wincode.cpp"
+"D:\C\Wincode\WincodeDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\SHEPHE~1\LOCALS~1\Temp\RSP133.tmp" 
+Creating temporary file "C:\DOCUME~1\SHEPHE~1\LOCALS~1\Temp\RSP134.tmp" with contents
+[
+/nologo /MT /W3 /GX /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/Wincode.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\C\Wincode\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\SHEPHE~1\LOCALS~1\Temp\RSP134.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/Wincode.pdb" /machine:I386 /out:"Release/Wincode.exe" /opt:noref  .\Release\HelpDlg.obj .\Release\StdAfx.obj .\Release\Wincode.obj .\Release\WincodeDlg.obj .\Release\Wincode.res "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+HelpDlg.cpp
+Wincode.cpp
+WincodeDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Wincode.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
