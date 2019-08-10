@@ -6,8 +6,7 @@ A mfc app for files encryption.:sparkles:
 ### How to use.
 1. Choose the file you want to encrypt.
 2. Click encrypt button.
-3. Don't encrypt the same file twice.
-4. Support all file types.
-5. Do the same for decryption.
+3. Support all file types.
+4. Do the same for decryption.
 
 <img src="./img/main.png">
